@@ -1,0 +1,16 @@
+{
+    "categorias" : [
+        {
+            "id" : 1,
+            "nome" : "Guia Básico",
+            "descricao" : "Guia Básico para desmistificar seus preconceitos",
+            "cor" : "#9244ff"
+        },
+        {
+            "id" : 2,
+            "nome" : "Documentarios",
+            "descricao" : "Documentários sobre vivências",
+            "cor" : "#9244ff"
+        }
+    ]
+}
