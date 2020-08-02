@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import Loading from '../../../components/Loading';
+import './cadastro.css';
 
 function CadastroCategoria() {
   const initialValues = {
     nome: '',
     descricao: '',
-    cor: '',
+    cor: '#7802aa',
   };
 
   const [categories, setCategories] = useState([]);
@@ -37,7 +39,7 @@ function CadastroCategoria() {
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {
             const resposta = await respostaDoServer.json();
-            setCategories([...resposta]);
+            setCategories(...[resposta]);
             return;
           }
           throw new Error('Não foi possível carregar os dados');
@@ -49,6 +51,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
+        {' '}
         {values.nome}
       </h1>
 
@@ -87,10 +90,19 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>
+        <Link to="/" className="BtnLink">
+          Cancelar
+        </Link>
+
+        <Button className="ButtonLink">
           Cadastrar
         </Button>
+
       </form>
+
+      {categories.length === 2 && (
+        <Loading />
+      )}
 
       <ul>
         {/* indice para manter o valor unico da key */}
@@ -112,9 +124,6 @@ function CadastroCategoria() {
         ))}
       </ul>
 
-      <Link to="/">
-        Ir para home
-      </Link>
     </PageDefault>
   );
 }

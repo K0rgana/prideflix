@@ -42,8 +42,8 @@
   }
   
   .ButtonLink {
-    color: var(--white);
-    border: 1px solid var(--white);
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
@@ -54,11 +54,11 @@
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    transition: opacity .3s;
+    transition: background .3s;
   }
   .ButtonLink:hover,
   .ButtonLink:focus {
-    opacity: .5;
+    background:  var(--primary);
   }
   
   @media (max-width: 800px) {
