@@ -100,7 +100,7 @@ function CadastroCategoria() {
 
       </form>
 
-      {categories.length === 2 && (
+      {categories.length === 0 && (
         <Loading />
       )}
 
