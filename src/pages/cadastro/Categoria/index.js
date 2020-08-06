@@ -30,21 +30,18 @@ function CadastroCategoria() {
       evt.target.value,
     );
   }
-  // ============
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'https://prideflix.herokuapp.com/categorias';
-      fetch(URL)
-        .then(async (respostaDoServer) => {
-          if (respostaDoServer.ok) {
-            const resposta = await respostaDoServer.json();
-            setCategories(...[resposta]);
-            return;
-          }
-          throw new Error('Não foi possível carregar os dados');
-        });
-    }
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://prideflix.herokuapp.com/categorias';
+    fetch(URL)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategories([
+          ...resposta,
+        ]);
+      });
   }, []);
 
   return (
@@ -107,15 +104,15 @@ function CadastroCategoria() {
       <ul>
         {/* indice para manter o valor unico da key */}
         {categories.map((categoria, indice) => (
-          <li key={`${categoria.nome}`}>
+          <li key={`${categoria.titulo}`}>
             {indice}
             .
             {' '}
-            {categoria.nome}
+            {categoria.titulo}
             {' '}
             -
             {' '}
-            {categoria.descricao}
+            {categoria.link_extra.text}
             {' '}
             -
             {' '}
