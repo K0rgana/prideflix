@@ -20,10 +20,10 @@ Após baixar o projeto, acesse ele via seu terminal rode os comandos:
 
 ```sh
 npm install
-npm start
+npm run dev
 ```
 Esses comandos irão baixar as dependências necessárias e rodar o projeto em modo de desenvolvimento.
-Em seguida ira abrir para visualização em seu navegador pelo link http://localhost:3000.
+Em seguida ira abrir para visualização em seu navegador pelo link http://localhost:3000, note que também estará rodando o json-server na porta '8080'.
 
 ## Resultado
 Você pode conferir o projeto funcionando pelo site [prideflix.vercel.app](https://prideflix.vercel.app).
