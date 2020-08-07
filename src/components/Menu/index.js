@@ -8,6 +8,7 @@ function Menu() {
   return (
     <nav className="Menu">
       <Link to="/">
+        {/* fontName = Lakmus */}
         <img className="Logo" src={Logo} alt="Logo da Prideflix" />
       </Link>
       <Button as={Link} className="ButtonLink" to="/cadastro/video">
