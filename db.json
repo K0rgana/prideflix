@@ -1,207 +1,432 @@
 {
-    "categorias": [
+  "categorias": [
     {
-        "id": 1,
-        "titulo": "Guia Básico",
-        "cor": "#9244ff",
-        "link_extra": {
-          "text": "Guia Básico para desmistificar seu preconceito, série criada pelo Canal das Bee.",
-          "url": "https://www.youtube.com/playlist?list=PLzY-oAdpCHl0GnlX_-cTj1j6hC2sOy23N"
-        }
+      "id": 1,
+      "titulo": "Guia Básico",
+      "cor": "#9244ff",
+      "link_extra": {
+        "text": "Guia Básico para desmistificar seu preconceito, série criada pelo Canal das Bee.",
+        "url": "https://www.youtube.com/playlist?list=PLzY-oAdpCHl0GnlX_-cTj1j6hC2sOy23N"
+      }
     },
     {
-        "id": 2,
-        "titulo": "DocVivências",
-        "cor": "#e96a01",
-        "link_extra": {
-          "text": "Documentários sobre vivências",
-          "url": ""
-        }
+      "id": 2,
+      "titulo": "Documentários",
+      "cor": "#e96a01",
+      "link_extra": {
+        "text": "Documentários sobre vivências",
+        "url": ""
+      }
     },
     {
-        "id": 3,
-        "titulo": "L de lésbica",
-        "cor": "#750787",
-        "link_extra": {
-            "text": "Representividade Lésbica na Música",
-            "url": " "
-        }
+      "id": 3,
+      "titulo": "L de lésbica",
+      "cor": "#750787",
+      "link_extra": {
+        "text": "Representividade Lésbica na Música",
+        "url": " "
+      }
     },
     {
-        "id": 4,
-        "titulo": "G de Gay",
-        "cor": "#004dff",
-        "link_extra": {
+      "id": 4,
+      "titulo": "G de Gay",
+      "cor": "#004dff",
+      "link_extra": {
         "text": "Representividade Gay na Música",
         "url": " "
-        }
+      }
     },
     {
-        "id": 5,
-        "titulo": "B de Bisexual",
-        "cor": "#008026",
-        "link_extra": {
+      "id": 5,
+      "titulo": "B de Bisexual",
+      "cor": "#008026",
+      "link_extra": {
         "text": "Representividade Bisexual na Música",
         "url": " "
-        }
-    }
-],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "Bandeira do Orgulho - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=oBbvBesvR8A"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "Sexo Biológico - Guia Básico #1 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=YgcSbT1M0Bo"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "Identidade de gênero - Guia Básico #2 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=BwY9ElZWKzg"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "Orientação sexual - Guia Básico #3 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=Hg4lPITZNyc&t=3s"
-      },
-      {
-        "id": 5,
-        "categoriaId": 1,
-        "titulo": "Papel de gênero - Guia Básico #4 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=fgRrmDkDSCM"
-      },
-      {
-        "id": 6,
-        "categoriaId": 1,
-        "titulo": "Visibilidade Representatividade e Inclusão - Guia Básico #5 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=9XEvE4zSM8k"
-      },
-      {
-        "id": 7,
-        "categoriaId": 1,
-        "titulo": "Gênero Não-binário - Guia Básico #7 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=HwmWqtAyj2E"
-      },
-      {
-        "id": 8,
-        "categoriaId": 1,
-        "titulo": "Assexualidade - Guia Básico #8 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=VkAQIkTDg-8"
-      },
-      {
-        "id": 9,
-        "categoriaId": 1,
-        "titulo": "O que é Intersexo?! Guia Básico #12 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=2iWaWsiSnd4"
-      },
-      {
-        "id": 10,
-        "categoriaId": 1,
-        "titulo": "O que é uma Drag Queen? - Guia Básico #11 - Canal das Bee",
-        "url": "https://www.youtube.com/watch?v=z1Bu2E0KpTY"
-      },
-      {
-        "id": 12,
-        "categoriaId": 2,
-        "titulo": "Sobre Vivências - Documentário LGBT",
-        "url": "https://www.youtube.com/watch?v=3HpfRWEYVqM"
-      },
-      {
-        "id": 13,
-        "categoriaId": 2,
-        "titulo": "TRANSBORDANDO AMOR - O Documentário",
-        "url": "https://youtu.be/00MnsYlpFNg"
-      },
-      {
-        "id": 14,
-        "categoriaId": 2,
-        "titulo": "A Revolta de Stonewall",
-        "url": "https://www.youtube.com/watch?v=cxSBW79yxjQ"
-      },
-      {
-        "id": 15,
-        "categoriaId": 2,
-        "titulo": "Além das 7 Cores - by Camila Biau",
-        "url": "https://www.youtube.com/watch?v=o1XOIS0BnP4"
-      },
-      {
-        "id": 16,
-        "categoriaId": 2,
-        "titulo": "Depois do Fervo - Documentário LGBT",
-        "url": "https://www.youtube.com/watch?v=s6YT4oPFEvs"
-      },
-      {
-        "id": 17,
-        "categoriaId": 3,
-        "titulo": "Malía - FLOW",
-        "url": "https://www.youtube.com/watch?v=CcVmYy3RSa0"
-      },
-      {
-        "id": 18,
-        "categoriaId": 3,
-        "titulo": "Ana Gabriela - X",
-        "url": "https://www.youtube.com/watch?v=_cFTok9KxJg"
-      },
-      {
-        "id": 19,
-        "categoriaId": 3,
-        "titulo": "Mahmundi - Qual É A Sua?",
-        "url": "https://www.youtube.com/watch?v=OCkelvOTq48"
-      },
-      {
-        "id": 20,
-        "categoriaId": 3,
-        "titulo": "Hayley Kiyoko - SLEEPOVER",
-        "url": "https://www.youtube.com/watch?v=W6jxPFtIAnw"
-      },
-      {
-        "id": 21,
-        "categoriaId": 3,
-        "titulo": "Bia Ferreira - De Dentro do Ap",
-        "url": "https://www.youtube.com/watch?v=xlTsc4nm_NI"
-      },
-      {
-        "id": 22,
-        "categoriaId": 4,
-        "titulo": "Troye Sivan - Bloom",
-        "url": "https://www.youtube.com/watch?v=41PTANtZFW0"
-      },
-      {
-        "id": 23,
-        "categoriaId": 4,
-        "titulo": "Lil Nas X - Old Town Road",
-        "url": "https://www.youtube.com/watch?v=r7qovpFAGrQ"
-      },
-      {
-        "id": 24,
-        "categoriaId": 4,
-        "titulo": "Sam Smith - How Do You Sleep?",
-        "url": "https://www.youtube.com/watch?v=PmYypVozQb4"
-      },
-      {
-        "id": 25,
-        "categoriaId": 4,
-        "titulo": "Rico Dalasam - Fogo em Mim",
-        "url": "https://www.youtube.com/watch?v=1c9LlYtXcdk"
-      },
-      {
-        "id": 26,
-        "categoriaId": 4,
-        "titulo": "HOLLAND - Neverland ",
-        "url": "https://www.youtube.com/watch?v=IVzGsh0zRec"
-      },
-      {
-        "id": 27,
-        "categoriaId": 5,
-        "titulo": "Silva e Ludmilla - Um Pôr do Sol na Praia",
-        "url": "https://www.youtube.com/watch?v=dc0Z02wqHPc"
       }
-    ]
+    },
+    {
+      "id": 6,
+      "titulo": "T de Trans",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Representividade Trans na Música",
+        "url": " "
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "P de Pansexual",
+      "cor": "#e40303",
+      "link_extra": {
+        "text": "Representividade Pansexual na Música",
+        "url": " "
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "A de Asexualidades",
+      "cor": "#750787",
+      "link_extra": {
+        "text": "Hits da comunidade aro/ace",
+        "url": " "
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "Arte Drag",
+      "cor": "#004dff",
+      "link_extra": {
+        "text": "Representividade de artistas performáticos que se travestem na Música",
+        "url": " "
+      }
+    },
+    {
+      "id": 10,
+      "titulo": "Séries",
+      "cor": "#008026",
+      "link_extra": {
+        "text": "Séries com temas importantes e cheias de diversidade",
+        "url": " "
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Bandeira do Orgulho - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=oBbvBesvR8A"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Sexo Biológico - Guia Básico #1 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=YgcSbT1M0Bo"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Identidade de gênero - Guia Básico #2 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=BwY9ElZWKzg"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Orientação sexual - Guia Básico #3 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=Hg4lPITZNyc&t=3s"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Papel de gênero - Guia Básico #4 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=fgRrmDkDSCM"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Visibilidade Representatividade e Inclusão - Guia Básico #5 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=9XEvE4zSM8k"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Gênero Não-binário - Guia Básico #7 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=HwmWqtAyj2E"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Assexualidade - Guia Básico #8 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=VkAQIkTDg-8"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "O que é Intersexo?! Guia Básico #12 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=2iWaWsiSnd4"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "titulo": "O que é uma Drag Queen? - Guia Básico #11 - Canal das Bee",
+      "url": "https://www.youtube.com/watch?v=z1Bu2E0KpTY"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Sobre Vivências - Documentário LGBT",
+      "url": "https://www.youtube.com/watch?v=3HpfRWEYVqM"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "TRANSBORDANDO AMOR - O Documentário",
+      "url": "https://youtu.be/00MnsYlpFNg"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "A Revolta de Stonewall",
+      "url": "https://www.youtube.com/watch?v=cxSBW79yxjQ"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Além das 7 Cores - by Camila Biau",
+      "url": "https://www.youtube.com/watch?v=o1XOIS0BnP4"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "Depois do Fervo - Documentário LGBT",
+      "url": "https://www.youtube.com/watch?v=s6YT4oPFEvs"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Malía - FLOW",
+      "url": "https://www.youtube.com/watch?v=CcVmYy3RSa0"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Ana Gabriela - X",
+      "url": "https://www.youtube.com/watch?v=_cFTok9KxJg"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Mahmundi - Qual É A Sua?",
+      "url": "https://www.youtube.com/watch?v=OCkelvOTq48"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Hayley Kiyoko - SLEEPOVER",
+      "url": "https://www.youtube.com/watch?v=W6jxPFtIAnw"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "Bia Ferreira - De Dentro do Ap",
+      "url": "https://www.youtube.com/watch?v=xlTsc4nm_NI"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Troye Sivan - Bloom",
+      "url": "https://www.youtube.com/watch?v=41PTANtZFW0"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "Lil Nas X - Old Town Road",
+      "url": "https://www.youtube.com/watch?v=r7qovpFAGrQ"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "Sam Smith - How Do You Sleep?",
+      "url": "https://www.youtube.com/watch?v=PmYypVozQb4"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Rico Dalasam - Fogo em Mim",
+      "url": "https://www.youtube.com/watch?v=1c9LlYtXcdk"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "HOLLAND - Neverland ",
+      "url": "https://www.youtube.com/watch?v=IVzGsh0zRec"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Silva e Ludmilla - Um Pôr do Sol na Praia",
+      "url": "https://www.youtube.com/watch?v=dc0Z02wqHPc"
+    },
+    {
+      "titulo": "Lady Gaga - Born This Way",
+      "url": "https://www.youtube.com/watch?v=wV1FrqwZyKw",
+      "categoriaId": 5,
+      "id": 28
+    },
+    {
+      "titulo": "Karol Conka - Lalá",
+      "url": "https://www.youtube.com/watch?v=t_veXiDyQvU",
+      "categoriaId": 5,
+      "id": 29
+    },
+    {
+      "titulo": "David Bowie - Heroes",
+      "url": "https://www.youtube.com/watch?v=lXgkuM2NhYI",
+      "categoriaId": 5,
+      "id": 30
+    },
+    {
+      "titulo": "Jaloo ft. Gaby Amarantos - Q.S.A",
+      "url": "https://www.youtube.com/watch?v=ns-kXpO0HU8",
+      "categoriaId": 5,
+      "id": 31
+    },
+    {
+      "titulo": "Linn da Quebrada - Oração",
+      "url": "https://www.youtube.com/watch?v=y5rY2N1XuLI",
+      "categoriaId": 6,
+      "id": 32
+    },
+    {
+      "titulo": "Urias - Diaba",
+      "url": "https://www.youtube.com/watch?v=_r83_ualtpM",
+      "categoriaId": 6,
+      "id": 33
+    },
+    {
+      "titulo": "Majur- Náufrago (feat. Hiran)",
+      "url": "https://www.youtube.com/watch?v=IpsQbAh4aoM",
+      "categoriaId": 6,
+      "id": 34
+    },
+    {
+      "titulo": "Liniker - Zero",
+      "url": "https://www.youtube.com/watch?v=M4s3yTJCcmI",
+      "categoriaId": 6,
+      "id": 35
+    },
+    {
+      "titulo": "Kim Petras - Heart to Break",
+      "url": "https://www.youtube.com/watch?v=5CPeHQHAQyo",
+      "categoriaId": 6,
+      "id": 36
+    },
+    {
+      "titulo": "Janelle Monáe - Screwed (feat. Zoë Kravitz)",
+      "url": "https://www.youtube.com/watch?v=BLPV55zXwJM",
+      "categoriaId": 7,
+      "id": 37
+    },
+    {
+      "titulo": "Miley Cyrus - Younger Now",
+      "url": "https://www.youtube.com/watch?v=-LX2kpeyp80",
+      "categoriaId": 7,
+      "id": 38
+    },
+    {
+      "titulo": "Sia - The Greatest",
+      "url": "https://www.youtube.com/watch?v=GKSRyLdjsPA",
+      "categoriaId": 7,
+      "id": 39
+    },
+    {
+      "titulo": "lemon boy - cavetown (cover by ribeiro)",
+      "url": "https://www.youtube.com/watch?v=m9DAIQRtOJA",
+      "categoriaId": 7,
+      "id": 40
+    },
+    {
+      "titulo": "Panic! At The Disco: Girls/Girls/Boys",
+      "url": "https://www.youtube.com/watch?v=Yk8jV7r6VMk",
+      "categoriaId": 7,
+      "id": 41
+    },
+    {
+      "titulo": "Gloria Groove - Coisa Boa",
+      "url": "https://www.youtube.com/watch?v=2T9b47ZtwQU",
+      "categoriaId": 9,
+      "id": 42
+    },
+    {
+      "titulo": "Armário de Saia - Toma Conta ft. Bianca Dellafancy",
+      "url": "https://www.youtube.com/watch?v=Va7ipXT7Hz4",
+      "categoriaId": 9,
+      "id": 43
+    },
+    {
+      "titulo": "Aretuza Lovi, Pabllo Vittar, Gloria Groove - Joga Bunda",
+      "url": "https://www.youtube.com/watch?v=DhIxpJHOeEo",
+      "categoriaId": 9,
+      "id": 44
+    },
+    {
+      "titulo": "Pabllo Vittar - Problema Seu",
+      "url": "https://www.youtube.com/watch?v=VAgE9p-1zpo",
+      "categoriaId": 9,
+      "id": 45
+    },
+    {
+      "titulo": "Potyguara Bardo - Curupira",
+      "url": "https://www.youtube.com/watch?v=BHd-9flbBw4",
+      "categoriaId": 9,
+      "id": 46
+    },
+    {
+      "titulo": "Cavetown – Lemon Boy",
+      "url": "https://www.youtube.com/watch?v=-itZVX-SUkI",
+      "categoriaId": 8,
+      "id": 47
+    },
+    {
+      "titulo": "Will Jay - Never Been In Love",
+      "url": "https://www.youtube.com/watch?v=rtgcPWnR0ak",
+      "categoriaId": 8,
+      "id": 48
+    },
+    {
+      "titulo": "Danko Jones - Don't Fall In Love",
+      "url": "https://www.youtube.com/watch?v=RbJCBEYCcus",
+      "categoriaId": 8,
+      "id": 49
+    },
+    {
+      "titulo": "Conan Gray - Crush Culture",
+      "url": "https://www.youtube.com/watch?v=GzYSzV7Mltc",
+      "categoriaId": 8,
+      "id": 50
+    },
+    {
+      "titulo": "Quebrada Queer - Guigo | Murillo Zyess | Harlley | Lucas Boombeat | Tchelo Gomez",
+      "url": "https://www.youtube.com/watch?v=FwktAmgku68",
+      "categoriaId": 4,
+      "id": 51
+    },
+    {
+      "titulo": "As Bahias E A Cozinha Mineira - Volta",
+      "url": "https://www.youtube.com/watch?v=DFJmJzWfr-Q",
+      "categoriaId": 6,
+      "id": 52
+    },
+    {
+      "titulo": "Pose (FX) First Look Trailer",
+      "url": "https://www.youtube.com/watch?v=Us-yvjTUepA",
+      "categoriaId": 10,
+      "id": 53
+    },
+    {
+      "titulo": "Tales of the City | Teaser | Netflix",
+      "url": "https://www.youtube.com/watch?v=9IUSCVH61xw",
+      "categoriaId": 10,
+      "id": 54
+    },
+    {
+      "titulo": "Orange Is The New Black - Season 1 - Official Trailer",
+      "url": "https://www.youtube.com/watch?v=vY0qzXi5oJg",
+      "categoriaId": 10,
+      "id": 55
+    },
+    {
+      "titulo": "One Day At a Time | Trailer oficial da temporada 2 | Netflix",
+      "url": "https://www.youtube.com/watch?v=xmC54dX5b0U",
+      "categoriaId": 10,
+      "id": 56
+    },
+    {
+      "titulo": "HOLLYWOOD | Official Trailer | Netflix",
+      "url": "https://www.youtube.com/watch?v=Q3EASLgzOcM",
+      "categoriaId": 10,
+      "id": 57
+    }
+  ]
 }
