@@ -11,19 +11,25 @@ const Container = styled.ul`
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 30px;
-    height: 30px;
+    width: 5%;
+    height: 5%;
     transform: initial;
+    &:hover {
+      background-color: var(--black);
+      opacity: .5;
+    }
     &:before {
-      font-size: 30px;
+      font-size: 50px;
     }
   }
   
   .slick-prev {
     left: 0;
+    height:100%;
   }
   .slick-next {
-    right: 16px;
+    right: 0;
+    height: 100%;
   }
 `;
 
@@ -36,7 +42,6 @@ export const SliderItem = styled.li`
     object-fit: cover;
   }
 `;
-
 
 const Slider = ({ children }) => (
   <Container>
