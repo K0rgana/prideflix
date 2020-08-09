@@ -15,7 +15,7 @@ const FormFieldWrapper = styled.div`
 const Label = styled.label``;
 
 Label.Text = styled.span`
-  color: #E5E5E5;
+  color: var(--white);
   height: 57px;
   position: absolute; 
   top: 0;
@@ -43,7 +43,7 @@ const Input = styled.input`
   outline: 0;
   border: 0;
   border-top: 4px solid transparent;
-  border-bottom: 4px solid #53585D;
+  border-bottom: 4px solid var(--primary);
   
   padding: 16px 16px;
   margin-bottom: 45px;
@@ -53,7 +53,7 @@ const Input = styled.input`
   transition: border-color .3s;
   
   &:focus {
-    border-bottom-color: var(--primary);
+    border-bottom-color: var(--secondary);
   }
   &:focus:not([type='color']) + ${Label.Text} {
     transform: scale(.6) translateY(-10px);
