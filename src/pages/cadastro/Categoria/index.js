@@ -10,8 +10,11 @@ import './cadastro.css';
 function CadastroCategoria() {
   const initialValues = {
     titulo: '',
-    descricao: '',
     cor: '#7802aa',
+    link_extra: {
+      text: '',
+      url: '',
+    },
   };
   const { values, handleChange, clearForm } = useForm(initialValues);
   const [categories, setCategories] = useState([]);
@@ -36,7 +39,6 @@ function CadastroCategoria() {
         {' '}
         {values.titulo}
       </h1>
-
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
         setCategories([
@@ -57,10 +59,18 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição"
+          label="Link Extra (Título)"
           type="textarea"
-          name="descricao"
-          value={values.descricao}
+          name="link_extra.text"
+          value={values.link_extra.text}
+          onChange={handleChange}
+        />
+
+        <FormField
+          label="Link Extra (Url)"
+          type="text"
+          name="link_extra.url"
+          value={values.link_extra.url}
           onChange={handleChange}
         />
 
@@ -88,17 +98,14 @@ function CadastroCategoria() {
 
       <ul>
         {/* indice para manter o valor unico da key */}
-        {categories.map((categoria, indice) => (
+        {categories.map((categoria) => (
           <li key={`${categoria.titulo}`}>
-            {indice}
-            .
-            {' '}
             {categoria.titulo}
             {' '}
             -
-            {/* {' '}
+            {' '}
             {categoria.link_extra.text}
-            {' '} */}
+            {' '}
             -
             {' '}
             {categoria.cor}
